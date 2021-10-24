@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/txt_lg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="99dp"
+    android:layout_marginTop="266dp"
+    android:layout_marginEnd="99dp"
+    android:layout_marginBottom="78dp"
+    android:ems="10"
+    android:hint="@string/msg_login"
+    app:layout_constraintBottom_toTopOf="@+id/txt_mdp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_chainStyle="packed" />
+
+<EditText
+    android:id="@+id/txt_mdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="99dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="99dp"
+    android:layout_marginBottom="50dp"
+    android:ems="10"
+    android:hint="@string/msg_pwd"
+    android:inputType="textPassword"
+    app:layout_constraintBottom_toTopOf="@+id/btn_con"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txt_lg" />
+
+<Button
+    android:id="@+id/btn_con"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="161dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="161dp"
+    android:layout_marginBottom="174dp"
+    android:text="@string/btn_connexion"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/txt_mdp" />
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginEnd="100dp"
+    android:layout_marginBottom="100dp"
+    app:layout_constraintBottom_toTopOf="@+id/txt_lg"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/ic_android_black" />
+</android.support.constraint.ConstraintLayout>

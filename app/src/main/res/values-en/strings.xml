@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ici tout doit être en anglais -->
+<resources>
+    <string name="app_name">NumeriThec</string>
+    <string name="msg_login">Login</string>
+    <string name="msg_pwd">Password</string>
+    <string name="btn_connexion">Sign in</string>
+    <string name="msg_param_app">Configure app</string>
+    <string name="msg_config_compte">Configure your account</string>
+    <string name="msg_refresh">Rafraichir</string>
+    <string name="msg_logout">Deconnexion</string>
+    <string name="network_error">Network error</string>
+    <string name="sign_error">Invalid login or password</string>
+    <string name="msg_search">Search</string>
+    <string name="msg_help">Help</string>
+    <string name="msg_short_config">Configurations</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="msg_accueil_doc">Documents ands books</string>
+    <string name="msg_acceuil_music">Audios and vidéos</string>
+    <string name="msg_acceuil_img">Pictures</string>
+    <string name="title_activity_docs">Documents</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="msg_erreur_Download">Echecs de téléchargement</string>
+    <string name="msg_download_succes">Téléchargement réussi</string>
+</resources>
